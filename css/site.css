@@ -8,6 +8,9 @@ body {
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
+h2{
+    font-size: 30px;
+}
 
 main h1 {
     text-align: center;
@@ -15,6 +18,7 @@ main h1 {
     color: #FFF;
     padding: 25px;
     border-bottom: 10px solid black;
+    font-size: 60px;
 }
 
 p {
@@ -28,6 +32,7 @@ blockquote {
     width: 250px;
     box-sizing: border-box;
     border-bottom-color: #333;
+    margin: 20px 40px;
     
 }
 
@@ -36,6 +41,14 @@ aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 20px;
 }
 /* aside nav{
     width: 720px;
@@ -62,4 +75,12 @@ main div {
     width:720px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+}
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
